@@ -38,7 +38,6 @@ int main(){
 		cout<<"Valor de Q: "<<Q<<endl;
 		n--;
 	}
-	//Invierto A
 	/*Residuo= 0001 - Cociente 0010*/
 	cout<<"Cociente: "<<Q.to_ulong()<<endl<<"Residuo: "<<A.to_ulong()<<endl;
 	return 0;
